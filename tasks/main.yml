@@ -1,0 +1,6 @@
+---
+- name: "check if ansible version is above {{ check_ansible_version }}"
+  assert:
+    that: "ansible_version.full is version_compare(check_ansible_version, '>=')"
+    msg: >
+      "You must update Ansible to at least 2.8 to use this version of the toolbox openstack playbook."
