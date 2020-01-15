@@ -1,0 +1,7 @@
+---
+- name: secure access to toolbox gateway
+  hosts: localhost
+  tags:
+   - default
+  roles:
+    - './'
