@@ -1,5 +1,6 @@
  Check Ansible Version
 ========================
+[![Build Status](https://travis-ci.org/chaos-bodensee/role-ansible_version.svg?branch=master)](https://github.com/chaos-bodensee/role-ansible_version.git)
 
  What is it doing?
 --------------
@@ -49,3 +50,10 @@ Your Playbook could look like this:
 ------------
 
 For possible modifications please have a look into the ``default`` Folder!
+
+
+ Participation
+-------------
+This role is developed on [github](https://github.com/chaos-bodensee/role-ansible_version.git).
+Feel free to add any Issues or PullRequests there. Thanks <3
+
