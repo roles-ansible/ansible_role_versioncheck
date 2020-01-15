@@ -1,8 +1,20 @@
- Check Ansible Vesion
+ Check Ansible Version
 ========================
 
-This anisble role will be executet on ``localhost`` and check if a modern version of ansible is installed.
+ What is it doing?
+--------------
 
-For exact details like which version is currently required and how to change it please have a look into the defaults folder!
+This role check the ansible-playbook version and will fail, if it is to old.
+This should help prevent bigger issues with to old ansible installations
+
+ How to use?
+-----------
+This anisble role should be executet on ``localhost``.
+
+### Example playbook:
 
 
+ Modifications
+------------
+
+For possible modifications please have a look into the ``default`` Folder!
