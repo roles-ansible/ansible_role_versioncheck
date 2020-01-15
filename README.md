@@ -1,6 +1,6 @@
  Check Ansible Version
 ========================
-[![Build Status](https://travis-ci.org/chaos-bodensee/role-ansible_version.svg?branch=master)](https://github.com/chaos-bodensee/role-ansible_version.git)
+[![Build Status](https://travis-ci.org/chaos-bodensee/role-ansible_version.svg?branch=master)](https://travis-ci.org/chaos-bodensee/role-ansible_version)
 
  What is it doing?
 --------------
