@@ -12,7 +12,25 @@ This should help prevent bigger issues with to old ansible installations
 This anisble role should be executet on ``localhost``.
 
 ### Example playbook:
+**With ansible galaxy:**
 
+
+**Without ansible galaxy:**
+Add this role to your roles as ``ansible_version``.
+```bash
+git clone https://github.com/chaos-bodensee/role-ansible_version.git roles/ansible_version
+```
+
+Your Playbook could look like this:
+```ini
+---
+- name: secure access to toolbox gateway
+  hosts: localhost
+  tags:
+   - default
+  roles:
+    - ansible_version
+```
 
  Modifications
 ------------
