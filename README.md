@@ -14,6 +14,18 @@ This anisble role should be executet on ``localhost``.
 ### Example playbook:
 **With ansible galaxy:**
 
+```bash
+# install role
+ansible-galaxy install do1jlr.ansible_version
+```
+
+Example playbook:
+```
+---
+- hosts: localhost
+  roles:
+  - do1jlr.ansible_version
+```
 
 **Without ansible galaxy:**
 
