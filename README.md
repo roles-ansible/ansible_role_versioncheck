@@ -38,7 +38,7 @@ git clone https://github.com/chaos-bodensee/role-ansible_version.git roles/ansib
 Your Playbook could look like this:
 ```ini
 ---
-- name: secure access to toolbox gateway
+- name: check if ansible is not to old
   hosts: localhost
   tags:
    - default
@@ -57,3 +57,7 @@ For possible modifications please have a look into the ``default`` Folder!
 This role is developed on [github](https://github.com/chaos-bodensee/role-ansible_version.git).
 Feel free to add any Issues or PullRequests there. Thanks <3
 
+
+### Testing
+
+*This role is tested via travis-ci and docker. To test this role manual simply execute the ``.ansible-test.yml`` playbook inside this role.*

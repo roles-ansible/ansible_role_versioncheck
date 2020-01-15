@@ -1,5 +1,5 @@
 ---
-- name: secure access to toolbox gateway
+- name: check if ansible is not to old
   hosts: localhost
   tags:
    - default
