@@ -44,6 +44,7 @@ Your Playbook could look like this:
    - default
   roles:
     - ansible_version
+  gather_facts: no
 ```
 
  Modifications
