@@ -21,6 +21,7 @@ install:
   - pip install tox-travis
 env:
   jobs:
+    - TOX_DISTRO=archlinuxlatest      TOX_ANSIBLE=latest
     - TOX_DISTRO=alpinelatest      TOX_ANSIBLE=latest
     - TOX_DISTRO=alpine310         TOX_ANSIBLE=latest
     - TOX_DISTRO=alpine39          TOX_ANSIBLE=latest

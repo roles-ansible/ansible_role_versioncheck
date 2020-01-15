@@ -9,15 +9,38 @@ galaxy_info:
   platforms:
     - name: Archlinux
       versions: all
+    - name: Alpine
+      version:
+        - latest
+        - 3.10
+        - 3.9
+        - 3.8
+    - name: Clearlinux
+      version:
+        - latest
     - name: Debian
       versions:
-        - all
-    - name: Ubuntu
+        - latest
+        - stable
+        - 10
+        - 9
+        - 8
+    - name: EL
       versions:
-        - all
+        - latest
+        - 8
+        - 7
     - name: Fedora
       versions:
-        - all
+        - latest
+        - 31
+        - 30
+        - 29
+        - 28
+    - name: Suse
+      versions:
+        - latest
+        - 15
   galaxy_tags:
     - version
     - playbook
