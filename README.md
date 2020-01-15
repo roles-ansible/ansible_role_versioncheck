@@ -16,7 +16,8 @@ This anisble role should be executet on ``localhost``.
 
 
 **Without ansible galaxy:**
-Add this role to your roles as ``ansible_version``.
+
+Add this role to your roles as ``ansible_version``. *Example:*
 ```bash
 git clone https://github.com/chaos-bodensee/role-ansible_version.git roles/ansible_version
 ```

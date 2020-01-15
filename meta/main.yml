@@ -1,0 +1,25 @@
+---
+galaxy_info:
+  author: L3D
+  description: Make sure you are only executing ansible with at least a specific ansible version.
+  license: "MIT"
+  min_ansible_version: 2.9
+  github_branch: master
+  role_name: ansible_version
+  platforms:
+    - name: Archlinux
+      versions: all
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+  galaxy_tags:
+    - version
+    - playbook
+    - versioncheck
+dependencies: []
