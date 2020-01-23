@@ -3,7 +3,7 @@ galaxy_info:
   author: L3D
   description: Make sure you are only executing ansible with at least a specific ansible version.
   license: "MIT"
-  min_ansible_version: 2.9
+  min_ansible_version: 2.7
   github_branch: master
   role_name: ansible_version
   platforms:
