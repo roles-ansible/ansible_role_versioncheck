@@ -25,6 +25,12 @@ galaxy_info:
         - 10
         - 9
         - 8
+    - name: Ubuntu
+      versions:
+        - latest
+        - stable
+        - xenial
+        - bionic
     - name: EL
       versions:
         - latest
