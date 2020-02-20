@@ -60,5 +60,4 @@ Feel free to add any Issues or PullRequests there. Thanks <3
 
 
 ### Testing
-
-*This role is tested via travis-ci and docker. To test this role manual simply execute the ``.ansible-test.yml`` playbook inside this role.*
+This role is tested with github [actions](https://github.com/chaos-bodensee/role-ansible_version/actions).
