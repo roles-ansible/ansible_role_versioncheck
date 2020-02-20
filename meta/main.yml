@@ -36,9 +36,9 @@ galaxy_info:
         - 30
         - 29
         - 28
-    - name: Suse
-      versions:
-        - 15
+#    - name: Suse
+#      versions:
+#        - 15
   galaxy_tags:
     - version
     - playbook
