@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/roles-ansible/role_ansible-version.svg?branch=master)](https://travis-ci.org/roles-ansible/role_ansible-version)
+[![Ansible Galaxy](https://raw.githubusercontent.com/roles-ansible/role_ansible-version/master/.github/galaxy.svg?sanitize=true)](https://galaxy.ansible.com/do1jlr/ansible_version/) [![Build Status](https://travis-ci.org/roles-ansible/role_ansible-version.svg?branch=master)](https://travis-ci.org/roles-ansible/role_ansible-version) [![MIT License](https://raw.githubusercontent.com/roles-ansible/role_ansible-version/master/.github/license.svg?sanitize=true)](https://github.com/roles-ansible/role_ansible-version/blob/master/LICENSE)
 
  Check Ansible Version
 ========================
