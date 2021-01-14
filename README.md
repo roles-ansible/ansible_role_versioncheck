@@ -1,4 +1,4 @@
-[![Ansible Galaxy](https://raw.githubusercontent.com/roles-ansible/role_ansible-version/master/.github/galaxy.svg?sanitize=true)](https://galaxy.ansible.com/do1jlr/ansible_version/) [![Build Status](https://travis-ci.org/roles-ansible/role_ansible-version.svg?branch=master)](https://travis-ci.org/roles-ansible/role_ansible-version) [![MIT License](https://raw.githubusercontent.com/roles-ansible/role_ansible-version/master/.github/license.svg?sanitize=true)](https://github.com/roles-ansible/role_ansible-version/blob/master/LICENSE)
+[![Ansible Galaxy](https://raw.githubusercontent.com/roles-ansible/role_ansible-version/master/.github/galaxy.svg?sanitize=true)](https://galaxy.ansible.com/do1jlr/ansible_version/)  [![MIT License](https://raw.githubusercontent.com/roles-ansible/role_ansible-version/master/.github/license.svg?sanitize=true)](https://github.com/roles-ansible/role_ansible-version/blob/master/LICENSE)
 
  Check Ansible Version
 ========================
@@ -67,7 +67,6 @@ If you want to find out more about our tests, please have a look at the github m
 
 | test status | Github Marketplace |
 | :---------  | :----------------  |
-| [![Travis Build Status](https://travis-ci.org/roles-ansible/role_ansible-version.svg?branch=master)](https://travis-ci.org/roles-ansible/role_ansible-version) | [.travis.yml](https://github.com/roles-ansible/role_ansible-version/blob/master/.travis.yml) |
 | [![Ansible Lint check](https://github.com/roles-ansible/role_ansible-version/workflows/Ansible%20Lint%20check/badge.svg)](https://github.com/roles-ansible/role_ansible-version/actions?query=workflow%3A%22Ansible+Lint+check%22) | [ansible-lint action](https://github.com/marketplace/actions/ansible-lint)
 | [![Ansible check debian:stable](https://github.com/roles-ansible/role_ansible-version/workflows/Ansible%20check%20debian:stable/badge.svg)](https://github.com/roles-ansible/role_ansible-version/actions?query=workflow%3A%22Ansible+check+debian%3Astable%22) | [ansible test with debian stable](https://github.com/marketplace/actions/check-ansible-debian-stable) |
 | [![Ansible check debian:sid](https://github.com/roles-ansible/role_ansible-version/workflows/Ansible%20check%20debian:sid/badge.svg)](https://github.com/roles-ansible/role_ansible-version/actions?query=workflow%3A%22Ansible+check+debian%3Asid%22) | [ansible test with debian sid](https://github.com/marketplace/actions/check-ansible-debian-sid) |
