@@ -26,7 +26,7 @@ Example playbook:
 ---
 - hosts: localhost
   roles:
-  - do1jlr.ansible_version
+  - { role: do1jlr.ansible_version, tags: [default,version,default], gather_facts: no}
 ```
 
 **Without ansible galaxy:**
