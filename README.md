@@ -26,7 +26,7 @@ Example playbook:
 ---
 - hosts: localhost
   roles:
-  - { role: do1jlr.ansible_version, tags: [default,version,default], gather_facts: no}
+  - { role: do1jlr.ansible_version, tags: [default,version,always], gather_facts: false }
 ```
 
 **Without ansible galaxy:**
@@ -42,10 +42,12 @@ Your Playbook could look like this:
 - name: check if ansible is not to old
   hosts: localhost
   tags:
-   - default
+    - default
+    - version
+    - always
   roles:
     - ansible_version
-  gather_facts: no
+  gather_facts: false
 ```
 
  Modifications

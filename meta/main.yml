@@ -10,43 +10,21 @@ galaxy_info:
     - name: Archlinux
       versions: all
     - name: Debian
-      versions:
-        - sid
-        - buster
-        - jessie
-        - stretch
+      versions: all
     - name: Ubuntu
-      versions:
-        - bionic
-        - disco
-        - eoan
-        - focal
-        - trusty
-        - xenial
-#    - name: Alpine
-#      version:
-#        - 3.10
-#        - 3.9
-#        - 3.8
-#    - name: Clearlinux
-#      version:
-#        - all
+      versions: all
+    - name: Alpine
+      version: all
     - name: EL
-      versions:
-        - 8
-        - 7
-        - 6
-#    - name: Fedora
-#      versions:
-#        - 31
-#        - 30
-#        - 29
-#        - 28
-##    - name: Suse
-#      versions:
-##        - 15
+      versions: all
+    - name: Fedora
+      versions: all
+    - name: Suse
+      versions: all
   galaxy_tags:
     - version
     - playbook
     - versioncheck
+    - always
+    - ansibleversion
 dependencies: []
