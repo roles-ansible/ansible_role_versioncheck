@@ -26,5 +26,5 @@ galaxy_info:
     - playbook
     - versioncheck
     - always
-    - ansible_version
+    - ansibleversion
 dependencies: []
