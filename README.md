@@ -26,7 +26,7 @@ Example playbook:
 ---
 - hosts: localhost
   roles:
-  - { role: do1jlr.ansible_version, tags: [default,version,always], gather_facts: false }
+  - {role: do1jlr.ansible_version, tags: [version, always], gather_facts: false}
 ```
 
 **Without ansible galaxy:**
@@ -69,7 +69,9 @@ If you want to find out more about our tests, please have a look at the github m
 
 | test status | Github Marketplace |
 | :---------  | :----------------  |
-| [![Ansible Lint check](https://github.com/roles-ansible/role_ansible-version/workflows/Ansible%20Lint%20check/badge.svg)](https://github.com/roles-ansible/role_ansible-version/actions?query=workflow%3A%22Ansible+Lint+check%22) | [ansible-lint action](https://github.com/marketplace/actions/ansible-lint)
+| [![Ansible Lint check](https://github.com/roles-ansible/role_ansible-version/workflows/Ansible%20Lint%20check/badge.svg)](https://github.com/roles-ansible/role_ansible-version/actions?query=workflow%3A%22Ansible+Lint+check%22) | [ansible-lint action](https://github.com/marketplace/actions/ansible-lint) |
+| [![Yamllint GitHub Actions](https://github.com/roles-ansible/role_ansible-version/actions/workflows/yamllint.yaml/badge.svg)](https://github.com/roles-ansible/role_ansible-version/actions/workflows/yamllint.yaml) | [yamllint-github-action](https://github.com/marketplace/actions/yamllint-github-action) |
+| [![Galaxy Release](https://github.com/roles-ansible/role_ansible-version/actions/workflows/galaxy.yml/badge.svg)](https://github.com/roles-ansible/role_ansible-version/actions/workflows/galaxy.yml) | [publish-ansible-role-to-galaxy](https://github.com/marketplace/actions/publish-ansible-role-to-galaxy) |
 | [![Ansible check debian:stable](https://github.com/roles-ansible/role_ansible-version/workflows/Ansible%20check%20debian:stable/badge.svg)](https://github.com/roles-ansible/role_ansible-version/actions?query=workflow%3A%22Ansible+check+debian%3Astable%22) | [ansible test with debian stable](https://github.com/marketplace/actions/check-ansible-debian-stable) |
 | [![Ansible check debian:sid](https://github.com/roles-ansible/role_ansible-version/workflows/Ansible%20check%20debian:sid/badge.svg)](https://github.com/roles-ansible/role_ansible-version/actions?query=workflow%3A%22Ansible+check+debian%3Asid%22) | [ansible test with debian sid](https://github.com/marketplace/actions/check-ansible-debian-sid) |
 | [![Ansible check debian:buster](https://github.com/roles-ansible/role_ansible-version/workflows/Ansible%20check%20debian:buster/badge.svg)](https://github.com/roles-ansible/role_ansible-version/actions?query=workflow%3A%22Ansible+check+debian%3Abuster%22) | [ansible test with debian buster](https://github.com/marketplace/actions/check-ansible-debian-buster) |
