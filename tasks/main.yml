@@ -1,6 +1,6 @@
 ---
 - name: "check if ansible version is above {{ check_ansible_version }}"
-  assert:
+  ansible.builtin.assert:
     that:
       - "ansible_version.full is version_compare(check_ansible_version, '>=')"
     fail_msg: "[ERROR] You need at least ansible version {{ check_ansible_version }}. Current Version: {{ ansible_version.full }}"

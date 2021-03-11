@@ -1,10 +1,10 @@
 ---
 galaxy_info:
-  author: L3D
+  author: do1jlr
   description: Make sure you are only executing ansible with at least a specific ansible version.
   license: "MIT"
-  min_ansible_version: 2.7
-  github_branch: master
+  min_ansible_version: 2.8
+  github_branch: main
   role_name: ansible_version
   platforms:
     - name: Archlinux
