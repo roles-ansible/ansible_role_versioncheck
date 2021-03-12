@@ -19,7 +19,9 @@ galaxy_info:
       versions: all
     - name: Fedora
       versions: all
-    - name: Suse
+    - name: Devuan
+      versions: all
+    - name: GenericLinux
       versions: all
   galaxy_tags:
     - version
