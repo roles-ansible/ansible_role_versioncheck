@@ -1,5 +1,5 @@
 ---
-- name: "check if ansible version is above {{ check_ansible_version }}"
+- name: "Check if ansible version is above {{ check_ansible_version }}"
   ansible.builtin.assert:
     that:
       - "ansible_version.full is version_compare(check_ansible_version, '>=')"
