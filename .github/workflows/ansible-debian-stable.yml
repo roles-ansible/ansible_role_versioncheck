@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: 'checkout git repo'
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
 
       - name: 'ansible check with debian:stable'
         uses: roles-ansible/check-ansible-debian-stable-action@master
